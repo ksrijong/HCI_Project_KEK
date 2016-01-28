@@ -1,0 +1,48 @@
+body { 
+	text-align: center;
+}
+
+#menu li {
+	display: inline;
+	text-align: center;
+	padding: 10px;
+	margin: auto;
+}
+
+#foodporn { 
+
+	height: 250px;
+	width: 250px;
+	margin: auto;
+	margin-bottom: 25px;
+}
+
+#foodporn img { 
+	height: 250px;
+	width: 250px;
+	margin: auto;
+}
+
+#spin { 
+	height: 25px;
+	width: 250px;
+	margin-bottom: 25px;
+
+}
+
+form {
+
+	margin: auto;
+}
+
+input { 
+	width: 250px;
+}
+
+.hidden { 
+	visibility: hidden;
+}
+
+.active { 
+	visibility: visible;
+}
