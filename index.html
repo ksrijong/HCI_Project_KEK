@@ -2,6 +2,7 @@
 <html>
   <head>
   	<link type = "text/css" rel="stylesheet" href="style.css">
+  	<script type="text/javascript" src="function.js"></script> 
   </head>
   <title>FOODme</title>
   <body>
@@ -17,8 +18,18 @@
 		  	<ul>
 		  		<li>Home</li>
 		  		<li>About</li>
-		  		<li>Contact Us</li>
-		  		<li>Sign In</li>
+		  		<li>Contact</li>
+
+		  		<div class = "dropdown">
+		  			<li>My Profile</li>
+		  			<div class = "dropdown-content">
+		  				<a href = "#">My Restaurants</a>
+		  				<a href = "#">Edit Profile</a>
+		  				<a href = "#">Settings</a>
+		  			</div>
+		  		</div>
+
+		  		<li>Sign Out</li>
 		  	</ul>
 		</div> <!--end of menu-->
 
@@ -29,7 +40,7 @@
 			<button id = "spin">Explore the Crave</button>
 
 			<div id = "foodporn">
-				<img id = "dishPic" src = "http://i.ytimg.com/vi/0NqwbxFGiAg/maxresdefault.jpg">
+				<img id = "dishPic" src = "https://pbs.twimg.com/profile_images/417787703233503232/3RkTM-Cx.jpeg">
 			</div>
 			<p class = "hidden">Click left or right arrow to swipe through dishes</p>
 

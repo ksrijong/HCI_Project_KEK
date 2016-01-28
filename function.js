@@ -1,12 +1,9 @@
+$(document).ready(function() {
 
-//creating image array of food
-var imgArray = new Array();
+	$('button').on('click', function() {
 
-imgArray[0] = new Image(); 
-imgArray[0].src = "food/1.jpeg"; 
+		//if($('img').attr('src') === 'http://placehold.it/350x150')
+            $('img').attr('src', 'http://whalebonemag.com/wp-content/uploads/2015/08/DSC_4647-Edit-1050x701.jpg');
 
-imgArray[1] = new Image(); 
-imgArray[1].src = "food/2.jpeg"; 
-
-imgArray[2] = new Image(); 
-imgArray[2].src = "food/3.jpeg"; 
+	});
+})
