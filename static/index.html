@@ -1,2 +1,54 @@
-Test file
-Test
+<!DOCTYPE html>
+<html>
+  <head>
+  	<link type = "text/css" rel="stylesheet" href="style.css">
+  	<script type="text/javascript" src="function.js"></script> 
+  </head>
+  <title>FOODme</title>
+  <body>
+
+  	<h1>FOODme</h1>
+  	<h4>Your roulette of only the best, local dishes</h4>
+
+
+   <div id = "container">
+
+   	   <!--menu list-->
+	 	<div id = "menu">
+		  	<ul>
+		  		<li>Home</li>
+		  		<li>About</li>
+		  		<li>Contact</li>
+
+		  		<div class = "dropdown">
+		  			<li>My Profile</li>
+		  			<div class = "dropdown-content">
+		  				<a href = "#">My Restaurants</a>
+		  				<a href = "#">Edit Profile</a>
+		  				<a href = "#">Settings</a>
+		  			</div>
+		  		</div>
+
+		  		<li>Sign Out</li>
+		  	</ul>
+		</div> <!--end of menu-->
+
+		<div id = "finder">
+			<form>
+				<input type = "search" value = "Search"/>
+			</form>
+			<button id = "spin">Explore the Crave</button>
+
+			<div id = "foodporn">
+				<img id = "dishPic" src = "https://pbs.twimg.com/profile_images/417787703233503232/3RkTM-Cx.jpeg">
+			</div>
+			<p class = "hidden">Click left or right arrow to swipe through dishes</p>
+
+		</div> <!--end of finder-->
+
+	</div> <!--end of container-->
+	<div id = "slideshow">
+		<img src>
+	</div>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+body { 
+	text-align: center;
+	font-family: AvenirNextLTPro-Regular;
+}
+
+@font-face { 
+	font-family: AvenirNextLTPro-Regular;
+	src: url(Avenir/AvenirNextLTPro-Regular.otf);
+}
+
+@font-face { 
+	font-family: AvenirNextLTPro-UltLtCn;
+	src: url(Avenir/AvenirNextLTPro-UltLtCn.otf);
+}
+
+h1 { 
+	font-size: 30px;
+}
+
+h4 { 
+	font-family: AvenirNextLTPro-UltLtCn;
+}
+
+#menu { 
+	background-color: tomato;
+	width: 400px;
+	height: 20px;
+	margin: auto;
+	padding-top: 0px;
+	margin-bottom: 10px;
+}
+
+
+#menu ul{ 
+	margin-top: 10px;
+}
+
+#menu li {
+	display: inline;
+	text-align: center;
+	margin: auto;
+	font-size: 15px;
+	padding: 5px;
+}
+
+.dropdown { 
+	position: relatve;
+	display: inline-block;
+}
+
+.dropdown:hover { 
+	cursor: pointer;
+}
+
+.dropdown-content { 
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+
+}
+
+.dropdown-content a { 
+	color: black;
+	padding: 5px 5px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown:hover .dropdown-content { 
+	display: block;
+}
+
+#foodporn { 
+
+	height: 250px;
+	width: 250px;
+	margin: auto;
+	margin-bottom: 25px;
+}
+
+#foodporn img { 
+	height: 250px;
+	width: 250px;
+	margin: auto;
+}
+
+#spin { 
+	height: 25px;
+	width: 250px;
+	margin-bottom: 25px;
+
+}
+
+form {
+
+	margin: auto;
+}
+
+input { 
+	width: 250px;
+}
+
+.hidden { 
+	visibility: hidden;
+}
+
+.active { 
+	visibility: visible;
+}
