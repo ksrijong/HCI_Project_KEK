@@ -1,7 +1,7 @@
 /* navbar */
 .navbar-inverse {
     background-color: #ff6357;
-    border-color: #ff8888;
+    border-color: #transparent;
 }
 /* title */
 .navbar-inverse .navbar-brand {
