@@ -105,7 +105,6 @@ h4 {
 }
 
 form {
-
 	margin: auto;
 }
 
@@ -116,7 +115,8 @@ input {
 .hidden {
 	visibility: hidden;
 }
-
+/*
 .active {
 	visibility: visible;
 }
+*/
