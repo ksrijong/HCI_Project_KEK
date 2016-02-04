@@ -66,7 +66,6 @@
     <div>
       <a href = "#bmk_confirm" id = "bmk" data-rel = "popup"><button>Bookmark</button></a>
     </div>
-    <div id = "bmk_confirm" data-role="popup"> <p>Dish Bookmarked!</p></div>
     <!--review page for specific dish after clicking on image-->
     <div id = "dish_info">
       <h3>RESTAURANT NAME</h3>
@@ -81,12 +80,31 @@
 
       <!--dislay good and bad hashtags-->
       <div id = "hashtags">
-        <div>UPS</div>
-        <div>DOWNS</div>
-      </div>
+        <div id = "ht_type">
+          <div class = "ups">UPS</div>
+          <div class = "downs">DOWNS</div>
+        </div>
+        <div class = "ups">
+            <div>yummy</div>
+            <div>delicious</div>
+            <div>cheesy</div>
+            <div>devine</div>
+        </div>
+        <div class = "downs">
+            <div>disgusting</div>
+            <div>stinky</div>
+            <div>spicy</div>
+            <div>horrible</div>
+        </div>
+      </div> <!--end of hashtag portion-->
     </div> <!--end of dish info-->
-    <div id = "rate_dish"><button id = "rate_dish">RATE IT</button></div>
-    <div id = "rate_form">Rating Form here</div>
+    <div id = "rate_dish" data-role="main" class = "ui-content"><a href="#rate_form" data-rel="popup">RATE IT</a></div>
+
+    <div data-role = "popup" id="rate_form" class = "ui-content">
+      Form goes here
+      
+    </div>
+
 
 	</div> <!--end of container-->
 

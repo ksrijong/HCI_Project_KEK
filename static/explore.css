@@ -5,12 +5,6 @@
 	margin-bottom: 15px;
 }
 
-#bmk_confirm { 
-	visibility: hidden;
-	background-color: red;
-	color: white;
-}
-
 .move { 
 	height: 50px;
 	width: 50px;
@@ -41,7 +35,61 @@
 }
 
 #hashtags div { 
-	display: inline-block;
+
 	margin-right: 0px;
-	border: 1px solid tomato;
+	color: white;
+
+}
+
+.ups { 
+	background-color: green;
+	color: white;
+	margin: auto;
+}
+
+.ups div { 
+	display: inline;
+	margin: auto;
+}
+
+.downs { 
+	background-color: red;
+	color: white;
+}
+
+.downs div{ 
+	display: inline;
+	width: 50px;
+	margin: auto;
+}
+
+#ht_type div { 
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+#ups div { 
+	position: relative;
+	border: 1px solid green;
+	display: inline-block;
+}
+
+#downs div { 
+	position: relative;
+	display: inline-block;
+	border: 1px solid red;
+}
+
+#rate_dish { 
+	background-color: blue;
+	color: white;
+	width: 100px;
+	position: relative;
+	margin: auto;
+	margin-top: 5px;
+}
+
+#rate_dish a { 
+	text-decoration: none;
+	color: white;
 }
