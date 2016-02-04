@@ -98,12 +98,26 @@ h4 {
 	margin: auto;
 }
 
+#finder .btn-lg {
+    color: #FFF;
+    background-color: #777;
+    border: 0px;
+}
+#finder .btn-block {
+    box-shadow: none;
+		margin: auto;
+		margin-bottom: 25px;
+		width: 215px;
+
+}
+
+/*
 #spin {
 	height: 25px;
 	width: 250px;
 	margin-bottom: 25px;
 
-}
+}*/
 
 form {
 
@@ -143,7 +157,7 @@ input {
 /* links (menu options) */
 .navbar-inverse .navbar-nav > li > a {
     color: #fff; /* white */
-		font-size: 20px;		
+		font-size: 20px;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
@@ -199,3 +213,24 @@ input {
     }
 }
 
+<<<<<<< HEAD
+=======
+.form-control input[type="text"] {
+    margin-bottom: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.form-control {
+    position: relative;
+    font-size: 16px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    height: auto;
+    padding: 10px;
+		margin: 0 auto;
+		width: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+>>>>>>> bd1c570703a903b17a7b0387d3e1aa83a606fbdb
