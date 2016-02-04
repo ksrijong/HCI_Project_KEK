@@ -83,18 +83,34 @@ h4 {
 	display: block;
 }
 
+#container { 
+	width: 100%;
+}
+
+#back_btn { 
+	position: relative;
+	float: left;
+}
+
+#finder { 
+	position: relative;
+	float: center;
+}
 #foodporn {
 
 	height: 250px;
 	width: 250px;
 	margin: auto;
-	margin-bottom: 25px;
+	margin-top: 0px;
+	margin-bottom: 10px;
 }
 
 #foodporn img {
 	height: 250px;
 	width: 250px;
 	margin: auto;
+	margin-top: 5px;
+
 }
 
 #spin {

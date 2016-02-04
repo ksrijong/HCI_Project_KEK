@@ -59,11 +59,30 @@
 
    <div id = "container">
 
+    <div id = "back_btn">
+      <a href = "index.html"><button>BACK</button></a>
+    </div>
 		<div id = "finder">
-			<form>
+			<!--<form>
 				<input type = "search" value = "Search"/>
 			</form>
-			<button id = "spin"><a href = "explore.html">Explore the Crave</a></button>
+			<button id = "spin">Explore the Crave</button>-->
+
+			<div id = "foodporn">
+        <p>Tap image to view more info</p>
+        <div id = "bmk_confirm"> <p>Dish Bookmarked!</p></div>
+        <p id = "end">End of slideshow</p>
+        <!--clicking image will take to review site-->
+				<a href = "item.html"><img id = "slideshow " class = "dish" src = "../food/logo.gif" /></a>
+        <!--create left, right, and bookmark buttons-->
+      <div id = "swipe">
+        <button class = "move" id = "prev"> << </button>
+        <a href = "#" id = "bmk"><button id = "book_button">Bookmark</button></a>
+        <button class = "move" id = "next"> >> </button>
+      </div>
+      
+      <!--bookmark confirmation dialog popup-->
+			</div>
 
 		</div> <!--end of finder-->
 

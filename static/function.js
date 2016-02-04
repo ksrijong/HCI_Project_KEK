@@ -1,28 +1,54 @@
 $(document).ready(function() {
 
-	var prev = 0;
+    //creating food image array
+    var foodArr = new Array(); 
+    var burger = "../food/burger.jpg";
+    var pizza = '../food/pizza.jpg';
+    var sushi = '../food/sushi.jpg';
+    var steak = '../food/steak.jpg';
+    foodArr = [burger, pizza, sushi, steak];
 
-	$('#spin').click(function() {
+    var i = 0;
+    //moves to next image
+    $("#next").click(function() { 
+        $('#bmk_confirm').css('visibility', 'hidden');
+        console.log("right clicked!");
+        if (i < foodArr.length - 1) {
+             $("#end").css('visibility', 'hidden');
+            $('img').attr('src', foodArr[i]);
+            i++;
+        }
+        else if (i == foodArr.length - 1) { 
+            $('img').attr('src', foodArr[i]);
+            $("#end").css('visibility', 'visible');
+        }
+        else { 
 
-		var rand = Math.floor(Math.random() * 3);
+        }
+        console.log(i); // for testing purposes
+    });
 
-		while (rand === prev) {
-			rand = Math.floor(Math.random() * 3);
-		}
-		prev = rand;
+    //clicking left will go back to previous
+    $("#prev").click(function() { 
+        $('#bmk_confirm').css('visibility', 'hidden');
+        console.log("left clicked!");
+        if (i > 0) {
+            i--;
+            $("#end").css('visibility', 'hidden');
+            $('img').attr('src', foodArr[i]);
+        }
+        else if (i == 0){ 
+            $('img').attr('src', foodArr[i]);
+            $("#end").css('visibility', 'visible');
+        }
+        else { 
 
-		if (rand === 0) {
-
-        	$('img').attr('src', 'http://whalebonemag.com/wp-content/uploads/2015/08/DSC_4647-Edit-1050x701.jpg');
-        	//prev = 0;
-    	}
-    	else if (rand === 1) {
-    		$('img').attr('src', 'http://i.imgur.com/GWoeeaN.jpg');
-    		//prev = 1;
-    	}
-    	else {
-    		$('img').attr('src', 'http://spoilednyc.com/wp-content/uploads/2015/07/23/final-5056.jpg');
-    		//prev = 2;
-    	}
-	});
+        }       
+        console.log(i);
+    });
+	
+    //receive confirmation that you bookmarked dish
+    $('#bmk').click(function() { 
+        $('#bmk_confirm').css('visibility', 'visible');
+    })
 })
