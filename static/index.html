@@ -26,6 +26,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+          <a class="nav pull-left"><span class="glyphicon glyphicon-chevron-left" onclick="goBack()"></span></a>
+            <script>
+              function goBack() {
+                window.history.back();
+              }
+            </script>
           <a class="navbar-brand" href="index.html">FOODme</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
@@ -64,14 +70,6 @@
         </div>
       </div>
     </nav>
-
-
-  <div align="left"><button onclick="goBack()">Go Back</button></div>
-    <script>
-      function goBack() {
-        window.history.back();
-      }
-    </script>
 
   <div id = "container">
     <div id = "finder">
