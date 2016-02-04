@@ -132,6 +132,11 @@ input {
 	visibility: hidden;
 }
 
+.finder p { 
+	text-decoration: none;
+	color: white;
+}
+
 /*
 .active {
 	visibility: visible;
