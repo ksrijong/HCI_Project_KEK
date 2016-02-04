@@ -132,6 +132,15 @@ input {
 	visibility: hidden;
 }
 
+.finder a { 
+	text-decoration: none;
+	color: white;
+}
+
+#bmk_confirm { 
+	width: 100px;
+}
+
 /*
 .active {
 	visibility: visible;

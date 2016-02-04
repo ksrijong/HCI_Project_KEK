@@ -68,16 +68,19 @@
 			</form>
 			<button id = "spin">Explore the Crave</button>-->
 
+      <form>
+        <input class="form-control" type="text" placeholder="Search"/>
+      </form>
 			<div id = "foodporn">
         <p>Tap image to view more info</p>
-        <div id = "bmk_confirm"> <p>Dish Bookmarked!</p></div>
         <p id = "end">End of slideshow</p>
         <!--clicking image will take to review site-->
 				<a href = "item.html"><img id = "slideshow " class = "dish" src = "../food/logo.gif" /></a>
+        <div id = "bmk_confirm" data-role="popup"> <p>Dish Bookmarked!</p></div> <!--dish bookmarked popup-->
         <!--create left, right, and bookmark buttons-->
       <div id = "swipe">
         <button class = "move" id = "prev"> << </button>
-        <a href = "#" id = "bmk"><button id = "book_button">Bookmark</button></a>
+        <a href = "#bmk_confirm" id = "bmk" data-rel = "popup"><button id = "book_button">Bookmark</button></a>
         <button class = "move" id = "next"> >> </button>
       </div>
       
