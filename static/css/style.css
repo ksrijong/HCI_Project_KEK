@@ -132,9 +132,13 @@ input {
 	visibility: hidden;
 }
 
-.finder p { 
+.finder a { 
 	text-decoration: none;
 	color: white;
+}
+
+#bmk_confirm { 
+	width: 100px;
 }
 
 /*
