@@ -18,8 +18,6 @@
 
   <body>
 
-  	<h1>FOODme</h1>
-  	<h4>Your roulette of only the best, local dishes</h4>
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -28,6 +26,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+          <a class="nav pull-left"><span class="glyphicon glyphicon-chevron-left" onclick="goBack()"></span></a>
+            <script>
+              function goBack() {
+                window.history.back();
+              }
+            </script>
           <a class="navbar-brand" href="#">FOODme</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">

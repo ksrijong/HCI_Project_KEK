@@ -137,6 +137,15 @@ input {
 	visibility: visible;
 } */
 
+.glyphicon.glyphicon-chevron-left {
+    font-size: 45px;
+		color: #FFF;
+}
+
+.glyphicon.glyphicon-chevron-left:hover {
+    color: #5e5e5e;
+}
+
 /* navbar */
 .navbar-inverse {
     background-color: #d83c3c;
@@ -292,6 +301,19 @@ border-radius: 3px 0 0 3px;
    color: #999;
    font-weight: normal;
    font-style: italic;
+}
+
+/* Explore the crave button */
+.explore-button {
+    background-color: #d83c3c;
+		margin: 5px;
+    border: none;
+    color: white;
+    padding: 15px 85px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 /* Form submit button */

@@ -83,16 +83,16 @@ h4 {
 	display: block;
 }
 
-#container { 
+#container {
 	width: 100%;
 }
 
-#back_btn { 
+#back_btn {
 	position: relative;
 	float: left;
 }
 
-#finder { 
+#finder {
 	position: relative;
 	float: center;
 }
@@ -132,12 +132,14 @@ input {
 	visibility: hidden;
 }
 
-.finder a { 
+.finder a {
 	text-decoration: none;
 	color: white;
 }
 
-#rate_dish { 
+
+#bmk_confirm {
+
 	width: 100px;
 	height: 50px;
 }
