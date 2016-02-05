@@ -5,9 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
   <link type = "text/css" rel="stylesheet" href="style.css">
+  <link type = "text/css" rel="stylesheet" href="css/bookmarks.css">
   <link type = "text/css" rel="stylesheet" href="css/navbarstyle.css">
   <link type = "text/css" rel="stylesheet" href="explore.css">
 
@@ -40,11 +39,11 @@
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#"><span class="glyphicon glyphicon-star"></span>&nbsp;About</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-globe"></span>&nbsp;Explore</a></li>
+            <li><a href="explore.html"><span class="glyphicon glyphicon-globe"></span>&nbsp;Explore</a></li>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;My Profile<span class="caret"></span></a>
               <ul class="dropdown-menu" style="">
-                <li><a href="bookmarks.html" class="dropdown-item"><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Bookmarks</a></li>
+                <li><a href="#" class="dropdown-item"><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Bookmarks</a></li>
                 <li><a href="#" class="dropdown-item"><i class="fa fa-users"></i>&nbsp;Friends</a></li>
                 <li><a href="#" class="dropdown-item"><span class="glyphicon glyphicon-cog"></span>&nbsp; Settings</a></li>
                 <li><a href="login.html" class="dropdown-item"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
@@ -55,48 +54,45 @@
       </div>
     </nav>
 
-
    <div id = "container">
 
-    <!--go back to explore food-->
-    <div>
-      <a href = "#bmk_confirm" id = "bmk" data-rel = "popup"><button>Bookmark</button></a>
-    </div>
-    <div id = "bmk_confirm" data-role="popup"> <p>Dish Bookmarked!</p></div>
-    <!--review page for specific dish after clicking on image-->
-    <div id = "dish_info">
-      <h3>RESTAURANT NAME</h3>
-      <img src = "http://3.imimg.com/data3/XF/CY/MY-7061062/dish-plate-250x250.png" id = "dishpic"/>
-      <h3>Yummy Dish</h3>
+    <h2>Bookmarked Dishes</h2>
 
-      <div id = "faces">
-          <div>Angry: 6</div>
-          <div>Meh: 6</div>
-          <div>Happy: 6</div>
+    <div class = "item">
+    <div id = 'cookies' class = "bmk_dishes item1">
+      <img src = 'food/cookie_sandwich.jpeg'/>
+      <div id = "cookie_text" class = "bmk_text">
+        <p>Extraordinary Desserts</p>
+        <p>Cookie Sandwich Tower</p>
+        <p>Downtown, San Diego, CA</p>
       </div>
-
-      <!--dislay good and bad hashtags-->
-      <div id = "hashtags">
-        <div id = "ht_type">
-          <div class = "ups" id = "u">UPS</div>
-          <div class = "downs" id = "d">DOWNS</div>
-        </div>
-        <div class = "ups">
-          <div>Savory</div>
-          <div>Cheesy</div>
-          <div>Yummy</div>
-        </div>
-        <div class = "downs">
-          <div>stinky</div>
-          <div>spicy</div>
-          <div>weird</div>
-        </div>
-      </div> <!--end of hashtag ratings-->
     </div>
-    <div id = "rate_btn">
-        <button>RATE IT</button>
-    </div>
+    <a href = "#"><div class = "remove">remove</div></a>
+  </div>
 
+  <div class = "item">
+    <div id = 'curry' class = "bmk_dishes">
+      <img src = 'food/curry.jpg'/>
+      <div id = "curry_text" class = "bmk_text">
+        <p>Really Cool Thai Place</p>
+        <p>Coconut Fireball Curry</p>
+        <p>Convoy, San Diego, CA</p>
+      </div>
+    </div>
+   <a href = "#"><div class = "remove">remove</div></a>
+  </div>
+
+  <div class = "item">
+    <div id = 'ribs' class = "bmk_dishes">
+      <img src = 'food/ribs.jpg'/>
+      <div id = "tibs_text" class = "bmk_text">
+        <p>Phil's BBQ</p>
+        <p>World Famous Ribs</p>
+        <p>San Diego, CA</p>
+      </div>
+    </div>
+    <a href = "#"><div class = "remove">remove</div></a>
+  </div>
   </div> <!--end of container-->
 
   </body>
