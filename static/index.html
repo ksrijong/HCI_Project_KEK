@@ -4,7 +4,8 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel='stylesheet' href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link type = "text/css" rel="stylesheet" href="style.css">
   <link type = "text/css" rel="stylesheet" href="css/navbarstyle.css">
   <link type = "text/css" rel="stylesheet" href="explore.css">
@@ -18,6 +19,8 @@
 </head>
 
   <body>
+
+    <!-- Menu Bar -->
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -31,28 +34,17 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>&nbsp; Home</a></li>
             <li><a href="#"><span class="glyphicon glyphicon-star"></span>&nbsp;About</a></li>
             <li><a href="#"><span class="glyphicon glyphicon-globe"></span>&nbsp;Explore</a></li>
-
-            <!--
-            <li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;My Profile</a></li>
-          -->
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;My Profile<span class="caret"></span></a>
               <ul class="dropdown-menu" style="">
-                <li><a href="#" class="dropdown-item">Bookmarks</a></li>
-                <li><a href="#" class="dropdown-item">Friends</a></li>
-                <li><a href="#" class="dropdown-item">Settings</a></li>
+                <li><a href="#" class="dropdown-item"><span class="glyphicon glyphicon-bookmark"></span>&nbsp;Bookmarks</a></li>
+                <li><a href="#" class="dropdown-item"><i class="fa fa-users"></i>&nbsp;Friends</a></li>
+                <li><a href="#" class="dropdown-item"><span class="glyphicon glyphicon-cog"></span>&nbsp; Settings</a></li>
+                <li><a href="login.html" class="dropdown-item"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
               </ul>
             </li>
-            <!--
-            <li><a href="#"><span class="glyphicon glyphicon-cog"></span>&nbsp;Settings</a></li>
-            -->
-            <!-- sign up icon
-            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-            -->
-            <li><a href="login.html"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
           </ul>
         </div>
       </div>
@@ -62,7 +54,7 @@
     <div id = "finder">
       <form action="/search.html" class="search-wrapper cf">
         <input type="text" placeholder="Search for food here..." required="">
-        <button type="submit">Search</button>
+        <button type="submit"><span class="glyphicon glyphicon-search"></span></button>
       </form>
     </div> <!--end of finder-->
   </div> <!--end of container-->

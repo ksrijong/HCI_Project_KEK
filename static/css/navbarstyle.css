@@ -70,12 +70,18 @@
     }
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #555;
+        color: #fff;
     }
 }
 
 .dropdown-menu > li > a {
 		font-color: #fff;
-    background-color: #;
+    background-color: #eee;
 		text-align: center;
+}
+
+.dropdown-item {
+  font-color: #fff;
+
+  color: #fff
 }
