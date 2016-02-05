@@ -326,6 +326,7 @@ border-radius: 3px 0 0 3px;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+<<<<<<< HEAD
 		font-color: #fff;
 }
 
@@ -335,6 +336,8 @@ border-radius: 3px 0 0 3px;
 
 .explore-link {
 	color: #eee;
+=======
+>>>>>>> 6c8170757a85e18a2e5b17628313805ecd9dacb0
 }
 
 /* Form submit button */
