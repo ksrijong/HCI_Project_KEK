@@ -26,25 +26,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="nav pull-left"><span class="glyphicon glyphicon-chevron-left" onclick="goBack()"></span></a>
-            <script>
-              function goBack() {
-                window.history.back();
-              }
-            </script>
+
           <a class="navbar-brand" href="index.html">FOODme</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>&nbsp; Home</a></li>
-            <!--git <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Profile<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
-              </ul>
-            </li>-->
             <li><a href="#"><span class="glyphicon glyphicon-star"></span>&nbsp;About</a></li>
             <li><a href="#"><span class="glyphicon glyphicon-globe"></span>&nbsp;Explore</a></li>
 
@@ -53,10 +40,10 @@
           -->
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;My Profile<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Page 1-1</a></li>
-                <li><a href="#">Page 1-2</a></li>
-                <li><a href="#">Page 1-3</a></li>
+              <ul class="dropdown-menu" style="">
+                <li><a href="#" class="dropdown-item">Bookmarks</a></li>
+                <li><a href="#" class="dropdown-item">Friends</a></li>
+                <li><a href="#" class="dropdown-item">Settings</a></li>
               </ul>
             </li>
             <!--
@@ -83,7 +70,7 @@
    <div id = "container">
 
 		<div id = "finder">
-      <button id="spin" class="explore-button"><a class="explore-link" href="explore.html">Explore the Crave</a></button>
+      <a href="explore.html"><button id="spin" class="explore-button">Explore the Crave</button></a>
 		</div> <!--end of finder-->
 
 

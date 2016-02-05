@@ -215,13 +215,25 @@ input {
 }
 @media (max-width: 767px) {
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-        color: #777;
+        color: #fff;
     }
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #333;
+        color: #000;
     }
 }
+
+
+/*
+.dropdown-item {
+	font-color: white;
+	background-color: tomato;
+}
+
+.dropdown-item:hover {
+	font-color: black;
+	background-color: tomato;
+}*/
 
 <<<<<<< HEAD
 =======
@@ -317,8 +329,12 @@ border-radius: 3px 0 0 3px;
 		font-color: #fff;
 }
 
+.explore-button:hover {
+	  background-color: #d83;
+}
+
 .explore-link {
-	font-color: #fff;
+	color: #eee;
 }
 
 /* Form submit button */
