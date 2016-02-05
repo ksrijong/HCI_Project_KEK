@@ -84,6 +84,24 @@ h4 {
 	display: block;
 }
 
+#location { 
+  color: blue;
+}
+
+#location a { 
+  cursor: pointer;
+  text-decoration: underline;
+  display: inline-block;
+}
+
+#loc { 
+  font-size: 16px;
+}
+
+#change_loc { 
+  font-size: 10px;
+}
+
 #foodporn {
 
 	height: 250px;
