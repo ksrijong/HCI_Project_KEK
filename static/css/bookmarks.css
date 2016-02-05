@@ -1,0 +1,24 @@
+.bmk_dishes { 
+	height: 154px;
+	width: 500px;
+	border: 2px solid red;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.item div { 
+	display: inline-block;
+}
+
+.bmk_dishes img { 
+	height: 150px;
+	width: 150px;
+	position: relative;
+	float: left;
+}
+
+.bmk_text { 
+	position: relative;
+	float: center;
+	margin-top: 30px;
+}
