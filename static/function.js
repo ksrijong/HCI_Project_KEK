@@ -47,4 +47,8 @@ $(document).ready(function() {
         console.log(i);
     });
 
+    //receive confirmation that you bookmarked dish
+    $('#bmk').click(function() {
+        $('#bmk_confirm').css('visibility', 'visible');
+    })
 })

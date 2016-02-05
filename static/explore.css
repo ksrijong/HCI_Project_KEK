@@ -5,6 +5,12 @@
 	margin-bottom: 15px;
 }
 
+#bmk_confirm { 
+	visibility: hidden;
+	background-color: red;
+	color: white;
+}
+
 .move { 
 	height: 50px;
 	width: 50px;
@@ -34,62 +40,39 @@
 	margin-right: 10px;
 }
 
-#hashtags div { 
-
-	margin-right: 0px;
-	color: white;
-
-}
-
-.ups { 
-	background-color: green;
-	color: white;
-	margin: auto;
-}
-
-.ups div { 
-	display: inline;
-	margin: auto;
-}
-
-.downs { 
-	background-color: red;
-	color: white;
-}
-
-.downs div{ 
-	display: inline;
-	width: 50px;
-	margin: auto;
-}
-
 #ht_type div { 
 	display: inline-block;
 	margin-bottom: 10px;
 }
 
-#ups div { 
-	position: relative;
-	border: 1px solid green;
-	display: inline-block;
+#hashtags div { 
+	margin-right: 5px;
 }
 
-#downs div { 
-	position: relative;
+.ups div { 
 	display: inline-block;
-	border: 1px solid red;
-}
-
-#rate_dish { 
-	background-color: blue;
+	background-color: green;
 	color: white;
 	width: 100px;
-	position: relative;
-	margin: auto;
-	margin-top: 5px;
 }
 
-#rate_dish a { 
-	text-decoration: none;
+#u { 
+	background-color: green;
 	color: white;
+	width: 150px;
+	height: 20px;
+}
+
+#d { 
+	background-color: red;
+	color: white;
+	width: 150px;
+	height: 20px;
+}
+
+.downs div { 
+	display: inline-block;
+	background-color: red;
+	color: white;
+	width: 100px;
 }
