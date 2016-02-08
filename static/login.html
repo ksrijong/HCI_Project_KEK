@@ -74,6 +74,9 @@
         <input type="submit" name="login" class="login login-submit" value="Login" onclick="window.location.href='index.html'">
         <input type="submit" name="fb-login" class="login login-submit" value="Login with Facebook"><i class="fa fa-facebook"></i>
 
+        <!-- FACEBOOK LOGIN -->
+        <fb:login-button scope="public_profile,email,user_friends" onlogin="checkLoginState();"></fb:login-button>
+
       </form>
 
       <div class="login-help">
