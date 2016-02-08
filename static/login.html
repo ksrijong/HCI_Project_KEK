@@ -41,8 +41,6 @@
      }(document, 'script', 'facebook-jssdk'));
   </script>
 
-  <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-  </fb:login-button>
 
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
@@ -75,7 +73,7 @@
         <input type="submit" name="fb-login" class="login login-submit" value="Login with Facebook"><i class="fa fa-facebook"></i>
 
         <!-- FACEBOOK LOGIN -->
-        <fb:login-button scope="public_profile,email,user_friends" onlogin="checkLoginState();"></fb:login-button>
+        <fb:login-button scope="public_profile,email,user_friends" onlogin="checkLoginState();" id="status"></fb:login-button>
 
       </form>
 
