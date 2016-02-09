@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+    initializePage();
+
     //creating food image array
     var foodArr = new Array();
     var burger = "food/burger.jpg";
@@ -52,3 +54,7 @@ $(document).ready(function() {
         $('#bmk_confirm').css('visibility', 'visible');
     })
 })
+
+function initializePage() {
+	console.log("Javascript connected!");
+}
