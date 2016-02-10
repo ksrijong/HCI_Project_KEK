@@ -1,3 +1,11 @@
+$(document).ready(function() {
+	initializePage();
+})
+
+function initializePage() {
+	console.log("Javascript connected!");
+}
+
 exports.view = function(req, res){
 	console.log("TEST");
 	res.render('index');
