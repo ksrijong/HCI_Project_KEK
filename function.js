@@ -1,24 +1,60 @@
 $(document).ready(function() {
 
+    initializePage();
 
-	$('button').click(function() {
+    //creating food image array
+    var foodArr = new Array();
+    var burger = "food/burger.jpg";
+    var pizza = 'food/pizza.jpg';
+    var sushi = 'food/sushi.jpg';
+    var steak = 'food/steak.jpg';
+    foodArr = [burger, pizza, sushi, steak];
 
-		var dish = Math.floor(Math.random() * 3); 
+    var i = 0;
+    //moves to next image
+    $("#next").click(function() {
+        $('#bmk_confirm').css('visibility', 'hidden');
+        console.log("right clicked!");
+        if (i < foodArr.length - 1) {
+             $("#end").css('visibility', 'hidden');
+            $('img').attr('src', foodArr[i]);
+            i++;
+        }
+        else if (i == foodArr.length - 1) {
+            $('img').attr('src', foodArr[i]);
+            $("#end").css('visibility', 'visible');
+        }
+        else {
 
-		$('#foodporn').toggle();
+        }
+        console.log(i); // for testing purposes
+    });
 
-		/*if (dish === 0) {
-			$('img').attr('src', 'http://whalebonemag.com/wp-content/uploads/2015/08/DSC_4647-Edit-1050x701.jpg');
-		}
+    //clicking left will go back to previous
+    $("#prev").click(function() {
+        $('#bmk_confirm').css('visibility', 'hidden');
+        console.log("left clicked!");
+        if (i > 0) {
+            i--;
+            $("#end").css('visibility', 'hidden');
+            $('img').attr('src', foodArr[i]);
+        }
+        else if (i == 0){
+            $('img').attr('src', foodArr[i]);
+            $("#end").css('visibility', 'visible');
+        }
+        else {
 
-		else if (dish === 1) {
-			$('img').attr('src', 'https://d22d7v2y1t140g.cloudfront.net/m_9760287_8sSXy5iWnoYi.jpg');
-		}
+        }
+        console.log(i);
+    });
 
-		else {
-			$('img').attr('src', 'https://secure.static.tumblr.com/5d3361a5e61e550aed09165611bb18e0/obhhazq/t8Xn7zgxf/tumblr_static_tumblr_static_dxl9z1feu3w4ssw00gckk0cco_640.jpg');
-		}*/
-
-
-	});
+    //receive confirmation that you bookmarked dish
+    $('#bmk').click(function() {
+        $('#bmk_confirm').css('visibility', 'visible');
+    })
 })
+
+function initializePage() {
+	console.log("Javascript connected!");
+}
